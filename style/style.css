@@ -1,0 +1,189 @@
+*,body,html{
+    margin:0;
+    padding:0;
+      }
+  
+  body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 100%;
+   
+    
+  }
+  
+  #navbar{
+    
+   position: fixed;
+   background-color: #C11B17		;
+    width: 100%;
+    height: 50px;
+     padding-top: 30px;
+    
+  }
+  
+  .li{
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 25px;
+      color: white;
+     
+  }
+  ul{
+    float: right;
+    
+  }
+  
+  .nav-link{
+     text-decoration: none;
+    color: inherit;
+    
+  }
+  /*--------------*/
+  
+  
+  #welcome-section{
+     height: 100vh;
+     width: 100%;
+   
+  
+  }
+  .sect-style{
+    background-color: #3E3535	;
+   
+  }
+  
+  
+  h1,h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  }
+  p{
+    color:#C11B17;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    
+    
+  }
+  
+  
+  
+  /*---------*/
+  
+  #projects{
+    display: block;
+    padding-top:120px;
+    
+  background-color:#25587E	;
+    
+    
+    
+  }
+  
+  img{
+    height: 300px;
+    width:350px;
+    margin-bottom:0;
+    padding-bottom: 0px;
+    
+  }
+  .project-tile{
+    
+        border: 1px solid #444;
+      overflow: hidden;
+      width: 350px;
+      height: 350px;
+      margin: 15px;
+      
+   display:inline-block;
+    background-color: #3E3535;
+  
+  }
+  
+  
+  .divstyle{
+  background-color: #3E3535;
+    height:100%;
+    
+    margin:0;
+  }
+  .divstyle p{
+    font-size:1.5em;
+    text-align:center;
+    color: white;
+    padding-top: 10px;
+    margin-top: 0;
+  }
+  .project-tile a{
+  text-decoration: none;
+  
+  }
+  #foot-style{
+    padding-top:15%;
+    height: 350px;
+    
+  }
+  #foot-style p{
+    color:white;
+    font-size: 25px;
+    font-style: italic;
+  }
+  #foot-style ul{
+    
+   display:inline-block;
+   padding:5%;
+     text-align: center;
+    width:90%;
+  
+  }
+     
+  
+  
+  @media (max-width: 500px) {
+    h1{
+     color:orange;
+    }
+    #welcome-section{
+      background-color: gray;
+    } 
+    
+  }
+  /*a:hover {
+    border-right: 10px solid rgba(0,0,0,0);
+     border-left: 10px solid rgba(0,0,0,0);
+  }*/
+  
+  .listyle{
+    float:center;
+    text-align:center;
+     padding: 30px;
+    margin:2%;
+    display: inline-block;
+    
+    font-size: 25px;
+      color: white;
+   
+  }
+  #ulstyle a:hover{
+    text-shadow: 4px 4px 10px black;
+    font-size:30px;
+  }
+  .para:hover::before{
+    content:"\003c \002f 	\2009 ";
+  }
+  .para:hover::after{
+    content:"	\003e";
+  }
+  .divlist{
+    display:inline-block;
+      
+  }
